@@ -1,0 +1,11 @@
+name = "keys"
+main = "dist/index.mjs"
+compatibility_date = "2022-12-14"
+send_metrics = false
+kv_namespaces = [
+    { binding = "KV_KEYS", id = "6495d9614b5942e68289d4b97a7ea374" }
+]
+route = "keys.salted.fish/*"
+
+[vars]
+USER = "RedL0tus"
